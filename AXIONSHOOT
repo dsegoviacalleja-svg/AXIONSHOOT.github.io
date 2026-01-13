@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+footer .socials a {
+margin-left: 16px;
+color: white;
+text-decoration: none;
+font-size: 14px;
+}
+
+
+footer .socials a:hover {
+color: var(--primary);
+}
+
+
+@media (max-width: 768px) {
+header {
+padding: 24px;
+}
+
+
+section {
+padding: 64px 24px;
+}
+
+
+.hero h1 {
+font-size: 42px;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<!-- Sustituye logo.svg por tu logo sin texto -->
+<img src="logo-axionshoot.svg" alt="AXIONSHOOT Logo" />
+<nav>
+<a href="#">INICIO</a>
+<a href="#">PRODUCTOS</a>
+<a href="#">ESPORTS</a>
+<a href="#">CONTACTO</a>
+</nav>
+</header>
+
+
+<section class="hero">
+<h1>PRECISIÓN PARA <span>SHOOTERS</span></h1>
+<p>AXIONSHOOT diseña periféricos gaming de alto rendimiento para jugadores competitivos y eSports.</p>
+<button>DESCUBRIR PRODUCTOS</button>
+</section>
+
+
+<section>
+<h2 class="section-title">PERIFÉRICOS DESTACADOS</h2>
+<div class="products">
+<div class="card">
+<img src="mouse-axionshoot.png" alt="Ratón AXIONSHOOT" />
+<h3>AXIONSHOOT M1</h3>
+<p>Ratón ultraligero diseñado para máxima precisión en FPS y eSports.</p>
+</div>
+<div class="card">
+<img src="keyboard-axionshoot.png" alt="Teclado AXIONSHOOT" />
+<h3>AXIONSHOOT K60</h3>
+<p>Teclado mecánico 60% con respuesta rápida y estética competitiva.</p>
+</div>
+</div>
+</section>
+
+
+<footer>
+<p>© 2026 AXIONSHOOT. All rights reserved.</p>
+<div class="socials">
+<a href="#">Instagram</a>
+<a href="#">Twitter</a>
+<a href="#">LinkedIn</a>
+</div>
+</footer>
+
+
+</body>
+</html>
