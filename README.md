@@ -1,63 +1,4 @@
 # AXIONSHOOT.github.io
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AXIONSHOOT | Gaming Peripherals</title>
-<style>
-:root {
---bg-dark: #0b0b0d;
---bg-dark-2: #121217;
---primary: #e10600;
---secondary: #ffffff;
---muted: #9a9a9a;
-}
-
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-body {
-background: radial-gradient(circle at top, #1a0000, var(--bg-dark));
-color: var(--secondary);
-}
-
-
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 24px 64px;
-background: rgba(0,0,0,0.6);
-backdrop-filter: blur(6px);
-}
-
-
-header img {
-height: 42px;
-}
-
-
-nav a {
-margin-left: 32px;
-text-decoration: none;
-color: var(--secondary);
-font-weight: 600;
-letter-spacing: 1px;
-font-size: 14px;
-}
-
-
-nav a:hover {
-color: var(--primary);
-}
-
 
 .hero {
 min-height: 90vh;
@@ -65,7 +6,7 @@ display: grid;
 place-content: center;
 text-align: center;
 padding: 0 24px;
-background: url('fondo-axionshoot.jpg') center / cover no-repeat;
+background: url('ChatGPT Image 13 ene 2026, 11_07_16.png') center / cover no-repeat;
 }
 
 
