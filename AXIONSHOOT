@@ -64,7 +64,7 @@ display: grid;
 place-content: center;
 text-align: center;
 padding: 0 24px;
-background: url('fondo-axionshoot.jpg') center / cover no-repeat;
+background: url('ChatGPT Image 13 ene 2026, 11_07_16.png') center / cover no-repeat;
 }
 
 
