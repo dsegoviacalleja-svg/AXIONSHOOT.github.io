@@ -1,82 +1,97 @@
 <!DOCTYPE html>
-footer .socials a {
-margin-left: 16px;
-color: white;
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AXIONSHOOT | Gaming Peripherals</title>
+<style>
+:root {
+--bg-dark: #0b0b0d;
+--bg-dark-2: #121217;
+--primary: #e10600;
+--secondary: #ffffff;
+--muted: #9a9a9a;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+background: radial-gradient(circle at top, #1a0000, var(--bg-dark));
+color: var(--secondary);
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px 64px;
+background: rgba(0,0,0,0.6);
+backdrop-filter: blur(6px);
+}
+
+
+header img {
+height: 42px;
+}
+
+
+nav a {
+margin-left: 32px;
 text-decoration: none;
+color: var(--secondary);
+font-weight: 600;
+letter-spacing: 1px;
 font-size: 14px;
 }
 
 
-footer .socials a:hover {
+nav a:hover {
 color: var(--primary);
 }
 
 
-@media (max-width: 768px) {
-header {
-padding: 24px;
-}
-
-
-section {
-padding: 64px 24px;
+.hero {
+min-height: 90vh;
+display: grid;
+place-content: center;
+text-align: center;
+padding: 0 24px;
+background: url('fondo-axionshoot.jpg') center / cover no-repeat;
 }
 
 
 .hero h1 {
-font-size: 42px;
+font-size: 64px;
+font-weight: 800;
+letter-spacing: 4px;
 }
+
+
+.hero span {
+color: var(--primary);
 }
-</style>
-</head>
-<body>
 
 
-<header>
-<!-- Sustituye logo.svg por tu logo sin texto -->
-<img src="logo-axionshoot.svg" alt="AXIONSHOOT Logo" />
-<nav>
-<a href="#">INICIO</a>
-<a href="#">PRODUCTOS</a>
-<a href="#">ESPORTS</a>
-<a href="#">CONTACTO</a>
-</nav>
-</header>
+.hero p {
+margin-top: 16px;
+font-size: 18px;
+color: var(--muted);
+max-width: 640px;
+}
 
 
-<section class="hero">
-<h1>PRECISIÓN PARA <span>SHOOTERS</span></h1>
-<p>AXIONSHOOT diseña periféricos gaming de alto rendimiento para jugadores competitivos y eSports.</p>
-<button>DESCUBRIR PRODUCTOS</button>
-</section>
-
-
-<section>
-<h2 class="section-title">PERIFÉRICOS DESTACADOS</h2>
-<div class="products">
-<div class="card">
-<img src="mouse-axionshoot.png" alt="Ratón AXIONSHOOT" />
-<h3>AXIONSHOOT M1</h3>
-<p>Ratón ultraligero diseñado para máxima precisión en FPS y eSports.</p>
-</div>
-<div class="card">
-<img src="keyboard-axionshoot.png" alt="Teclado AXIONSHOOT" />
-<h3>AXIONSHOOT K60</h3>
-<p>Teclado mecánico 60% con respuesta rápida y estética competitiva.</p>
-</div>
-</div>
-</section>
-
-
-<footer>
-<p>© 2026 AXIONSHOOT. All rights reserved.</p>
-<div class="socials">
-<a href="#">Instagram</a>
-<a href="#">Twitter</a>
-<a href="#">LinkedIn</a>
-</div>
-</footer>
-
-
-</body>
+.hero button {
+margin-top: 40px;
+padding: 16px 40px;
+border: none;
+background: var(--primary);
+color: white;
 </html>
